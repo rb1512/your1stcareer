@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>your1stcareer — Engineer your 1st Career with AI-Native Startups</title>
+  <meta name="description" content="your1stcareer — Build your 1st AI Portfolio, gain proof-of-work, and get interviews with 50+ AI startups." />
+  <style>
+    /* --- Basic reset & layout --- */
+    :root{
+      --primary: #E63946;
+      --sec1: #FFD700;
+      --sec2: #F77F00;
+      --navy: #1A1F3A;
+      --white: #FEFFF6;
+      --grad: linear-gradient(90deg,var(--primary),var(--sec2),var(--sec1));
+      --maxw: 1000px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    html,body{height:100%;margin:0;background:var(--navy);color:var(--white);-webkit-font-smoothing:antialiased}
+    .container{max-width:var(--maxw);margin:48px auto;padding:40px;}
+    h1 {font-family:'Space Grotesk', Inter, sans-serif; font-size:40px; margin:0 0 16px; line-height:1.05;}
+    p.lead {color:rgba(255,255,255,0.85); margin:0 0 24px; font-size:17px;}
+    /* Gradient text (works across browsers) */
+    .gradient-text{
+      display:inline;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      font-weight:700;
+    }
+    /* CTA button */
+    .cta {
+      display:inline-block;
+      background: var(--grad);
+      color: #07101a;
+      padding:12px 18px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      box-shadow:0 8px 24px rgba(230,57,70,0.12);
+    }
+    /* Card for proof / logos */
+    .card {background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01)); padding:18px; border-radius:10px; margin-top:24px;}
+    .flex {display:flex; gap:18px; align-items:center; flex-wrap:wrap}
+    /* responsive */
+    @media(min-width:1024px){
+      h1{font-size:56px}
+    }
+    /* small footer */
+    footer{margin-top:40px;color:rgba(255,255,255,0.55);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Engineer your 1st Career with AI-Native Startups</h1>
+      <p class="lead">Learn. Build. Work. Get Hired. <strong>your1stcareer</strong> is a proof-of-work launchpad — GenAI upskilling, verified startup projects, and guaranteed interviews.</p>
+      <a class="cta" href="#apply">Apply for Cohort 1 (Dec 2025)</a>
+    </header>
+
+    <main>
+      <section style="margin-top:40px;">
+        <h2 style="margin:0 0 8px;font-size:28px;font-weight:700;color:var(--white)">This Program is <span class="gradient-text">Not for Everyone</span></h2>
+        <div class="card">
+          <div class="flex">
+            <div style="min-width:220px">
+              <strong>Phase 1</strong>
+              <div>0–4 weeks — GenAI portfolio with <em>Top 1% IITian Coaches</em></div>
+            </div>
+            <div style="min-width:220px">
+              <strong>Phase 2</strong>
+              <div>5–10 weeks — Verified projects mentored by industry engineers</div>
+            </div>
+            <div style="min-width:220px">
+              <strong>Phase 3</strong>
+              <div>Post-week 10 — Interviews with <strong>50+ AI startups</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="apply" style="margin-top:36px;">
+        <h3 style="margin:0 0 8px">Ready to apply?</h3>
+        <p style="margin:0 0 12px">Submit your resume and take the eligibility quiz. Seats limited.</p>
+        <a class="cta" href="mailto:hello@your1stcareer.com?subject=Apply%20for%20Cohort%201">Email to Apply</a>
+      </section>
+
+      <footer>
+        <div style="margin-top:20px">your1stcareer — Revolutionizing the 1st Career of India’s Engineers.</div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
